@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.switchButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-inputtext {
+  min-width: 250px;
+  min-height: 50px;
+}
+
+.p-inputtextarea {
+  min-width: 250px;
+  min-height: 100px;
+}
+
+.p-password-input	{
+  min-height: 50px;
+}
+
+.p-menubar-button {
+  visibility: hidden;
+}
